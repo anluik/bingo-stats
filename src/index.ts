@@ -1,0 +1,1 @@
+export const bingo = () => { console.log("Bingo!") };

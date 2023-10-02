@@ -1,0 +1,20 @@
+{
+  "name": "bingo-stats",
+  "version": "0.0.1",
+  "description": "Statistics for Bingo",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs, esm --dts",
+    "lint": "tsc"
+  },
+  "author": "Andri Luik",
+  "license": "MIT",
+  "devDependencies": {
+    "@changesets/cli": "^2.26.2",
+    "@types/node": "^20.8.0",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
