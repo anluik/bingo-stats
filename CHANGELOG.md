@@ -1,5 +1,11 @@
 # bingo-stats
 
+## 0.0.4
+
+### Patch Changes
+
+- d86919c: Rights
+
 ## 0.0.3
 
 ### Patch Changes
