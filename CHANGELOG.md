@@ -1,5 +1,11 @@
 # bingo-stats
 
+## 0.0.5
+
+### Patch Changes
+
+- ca4679b: Maybe fix
+
 ## 0.0.4
 
 ### Patch Changes
