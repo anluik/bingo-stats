@@ -1,0 +1,5 @@
+---
+"bingo-stats": patch
+---
+
+Initial
