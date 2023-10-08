@@ -1,5 +1,11 @@
 # bingo-stats
 
+## 0.1.0
+
+### Minor Changes
+
+- e2e916a: Added combination validation functions.
+
 ## 0.0.6
 
 ### Patch Changes
