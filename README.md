@@ -35,4 +35,4 @@ TODO
 
 ## License
 
-This project is licensed under the MITLicense - see the LICENSE file for details.
+This project is licensed under the MIT license - see the LICENSE file for details.
