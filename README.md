@@ -25,6 +25,12 @@ https://www.npmjs.com/package/bingo-stats
 npm i bingo-stats
 ```
 
+### Release
+If 
+```
+npm changeset
+```
+
 ## Examples
 TODO
 
