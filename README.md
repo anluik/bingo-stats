@@ -26,7 +26,7 @@ npm i bingo-stats
 ```
 
 ### Release
-If 
+If the change should be released to NPM after push
 ```
 npm changeset
 ```
