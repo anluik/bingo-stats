@@ -1,2 +1,2 @@
-export * from './validation';
-export * from './stats';
+export * from './validation/index';
+export * from './stats/index';
