@@ -1,21 +1,29 @@
-interface CombinationNumber {
-    number: number;
-    isInCorner: boolean;
-    isOnDiagonal: boolean;
-    isInCenter: boolean;
-}
-
-interface SaleLocation {
-    name: string | "internet" | "unknown"; // name of the store
+export interface SaleLocation {
+    name: string; // name of the store
     county?: string;
     city?: string;
     street?: string;
     number?: string;
 }
 
-export type CombinationNumbers = CombinationNumber[];
+/**
+ * Represents a single column of a combination. The value should never be modified.
+ *
+ * Number at index 0 corresponds to the number in the top row of the combination.
+ * Number at index 1 corresponds to the number in the second row of the combination.
+ * Etc.
+ */
+export type CombinationColumn = [number, number, number, number, number];
 
-export interface GameCombination {
-    numbers: CombinationNumbers;
+export type Combination = {
+    'B': CombinationColumn,
+    'I': CombinationColumn,
+    'N': CombinationColumn,
+    'G': CombinationColumn,
+    'O': CombinationColumn,
+}
+
+export interface Ticket {
+    combination: Combination;
     buyLocation?: SaleLocation;
 }

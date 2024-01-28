@@ -31,7 +31,7 @@ TODO
 ## Version History
 
 * 1.0.0
-    * Comping up...
+    * Coming up...
 
 ## License
 
